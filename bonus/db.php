@@ -1,11 +1,11 @@
 <?php
     $arrayGenreMovie1 = [
-        "action",
-        "thriller",
+        "Action",
+        "Thriller",
     ];
     $arrayGenreMovie2 = [
-        "action",
-        "fantasy",
-        "superpower"
+        "Action",
+        "Fantasy",
+        "Superpower"
     ];
 ?>

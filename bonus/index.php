@@ -26,10 +26,10 @@
                     <div class="card text-center" style="width: 18rem;">
                         <img src="https://cdn1.epicgames.com/undefined/offer/batman-arkham-knight_promo-2048x1152-ed2be22b3f24f446534b90b122ed560d.jpg" class="card-img-top" alt="batman">
                         <div class="card-body">
-                            <h5 class="card-title"><?php echo $movie1->getName(); ?></h5>
+                            <h3 class="card-title"><?php echo $movie1->getName(); ?></h3>
                             <p class="card-text">
                                 <?php 
-                                    echo 'Genres: ';
+                                    echo '<p class="text-danger fw-semibold fs-4">Genres:</p>';
                                     for($i=0; $i<count($arrayGenreMovie1); $i++){
                                         echo $movie1->getGenre()[$i].", ";
                                     }
@@ -42,10 +42,10 @@
                     <div class="card text-center" style="width: 18rem;">
                         <img src="https://blog.it.playstation.com/tachyon/sites/12/2022/06/c7ad90b8e7459ba44f6974a429783aee42275f1b.jpg" class="card-img-top" alt="batman">
                         <div class="card-body">
-                            <h5 class="card-title"><?php echo $movie2->getName(); ?></h5>
+                            <h3 class="card-title"><?php echo $movie2->getName(); ?></h3>
                             <p class="card-text">
                                 <?php 
-                                    echo 'Genres: ';
+                                    echo '<p class="text-danger fw-semibold fs-4">Genres:</p>';
                                     for($i=0; $i<count($arrayGenreMovie2); $i++){
                                         echo $movie2->getGenre()[$i].", ";
                                     }

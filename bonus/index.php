@@ -1,31 +1,8 @@
 <?php
-    class movies {
-        // instance
-        public $name;
-        public $genres;
-        // construct
-        function __construct($nameMovie, $genre){
-            $this->name = $nameMovie;
-            $this->genres = $genre;
-        }
-        // methods
-        function getName(){
-            return $this->name;
-        }
-        function getGenre(){
-            return $this->genres;
-        }
-    }
-    $arrayGenreMovie1 = [
-        "action",
-        "thriller",
-    ];
+    include __DIR__. '/models.php';
+    include __DIR__. '/db.php';
+    
     $movie1 = new movies('Batman',$arrayGenreMovie1);
-    $arrayGenreMovie2 = [
-        "action",
-        "fantasy",
-        "superpower"
-    ];
     $movie2 = new movies('Spiderman',$arrayGenreMovie2);
 ?>
 
